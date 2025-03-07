@@ -47,3 +47,20 @@ python merge_annotations.py \
 --annotations2 <annotator_2_prediction1> <annotator_2_prediction2> ... \
 --annotations3 <annotator_3_prediction1> <annotator_3_prediction2> ... \
 ```
+# Citation
+If you find this code to be useful, please cite
+```
+@InProceedings{bongratz25-mlv2-net,
+  title = 	 {MLV2-Net: Rater-Based Majority-Label Voting for Consistent Meningeal Lymphatic Vessel Segmentation},
+  author =       {Bongratz, Fabian and Karmann, Markus and Holz, Adrian and Bonhoeffer, Moritz and Neumaier, Viktor and Deli, Sarah and Schmitz-Koep, Benita and Zimmer, Claus and Sorg, Christian and Thalhammer, Melissa and Hedderich, Dennis M and Wachinger, Christian},
+  booktitle = 	 {Proceedings of the 4th Machine Learning for Health Symposium},
+  pages = 	 {143--153},
+  year = 	 {2025},
+  volume = 	 {259},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {15--16 Dec},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v259/main/assets/bongratz25a/bongratz25a.pdf},
+  url = 	 {https://proceedings.mlr.press/v259/bongratz25a.html},
+}
+```
